@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zaika-E-Gwalior</string>
+    <string name="title_activity_mapsfaini">Map</string>
+    <string name="title_activity_mapsgajak">Map</string>
+    <string name="title_activity_mapskachori">Map</string>
+    <string name="title_activity_mapsladoo">Map</string>
+    <string name="title_activity_mapsmilk">Map</string>
+    <string name="title_activity_mapsnamkin">Map</string>
+    <string name="title_activity_mapsparatha">Map</string>
+    <string name="title_activity_mapspeda">Map</string>
+    <string name="title_activity_maps_petha">Map</string>
+    <string name="title_activity_maps_sweet">Map</string>
+</resources>

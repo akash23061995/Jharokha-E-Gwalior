@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sv"
+    tools:context="com.gwalior.android.zaika_e_gwalior.Main3Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:background="#dddd">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout1"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image"
+                    android:scaleType = "centerCrop"
+                    android:src="@drawable/newladoo"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Bahadura Sweets"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="05.00am-7.30pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView1"
+                    android:layout_centerHorizontal="true"
+
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignStart="@+id/imageView2" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview2"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image4"
+                    android:src="@drawable/gajak"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Morena Gajak Bhandar"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image4" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="09.00am-11.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignStart="@+id/imageView5" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview3"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout3"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image7"
+                    android:src="@drawable/faini"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Om Ji Faini Wale"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image7" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="07.00am-10.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView7"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignStart="@+id/imageView8" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview4"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout4"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image10"
+                    android:src="@drawable/peda"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Dwarika Peda House"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image10" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="10.00am-9.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView11"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView10"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView11"
+                    android:layout_alignStart="@+id/imageView11" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview5"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout5"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image13"
+                    android:src="@drawable/sweet"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Bholenath Mishthan"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image13" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="08.30am-10.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView13"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignStart="@+id/imageView14" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview6"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout6"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image16"
+                    android:src="@drawable/petha"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Panchhi Raj Petha"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image16" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="10.00am-10.30pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView17"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView16"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView17"
+                    android:layout_alignStart="@+id/imageView17" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview7"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout7"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image19"
+                    android:src="@drawable/kachori"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Tarachand Kachori Wale"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image19" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Station Bajriya,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="07.00am-7.30pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView20"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView19"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView20"
+                    android:layout_alignStart="@+id/imageView20" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview8"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout8"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image22"
+                    android:src="@drawable/milk"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Barent Keshriya Doodh"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image22" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="05.00pm-5.30pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView23"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView22"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView23"
+                    android:layout_alignStart="@+id/imageView23" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview9"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout9"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image25"
+                    android:src="@drawable/namkin"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Best Namkin"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image25" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Lashkar,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="10.00am-10.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView26"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView25"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView26"
+                    android:layout_alignStart="@+id/imageView26" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cardview10"
+            android:layout_marginTop="7dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativelayout10"
+                android:padding="6dp"
+                android:elevation="4dp"
+                android:background="#ffff">
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/image28"
+                    android:src="@drawable/paratha"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:text="Delhi Paratha"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/image28" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Daulatganj,Gwalior"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="02.00pm-12.00pm"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView29"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/textView28"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/locationicon" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType = "centerCrop"
+                    app:srcCompat="@drawable/timing"
+                    android:layout_below="@+id/textView29"
+                    android:layout_alignStart="@+id/imageView29" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
